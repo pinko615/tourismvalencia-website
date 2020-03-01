@@ -10,6 +10,7 @@ _You can download or clone this project to see the code of the entire website._
 
 * [HTML5] - HyperText Markup Language.
 * [CSS] - Cascading Style Sheets.
+* [Boostrap] - System of version controller.
 * [GitHub] - System of version controller.
 
 ## Author ✒️
