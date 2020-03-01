@@ -1,21 +1,27 @@
-# Pinko's personal website
+# Pagina Web de tourismValencia
 
-_Personal website to show all my old and future code projects._
+_Pagina web que promociona diferentes sitios de la Comunidad Valenciana, ofreciendo entradas y novedades para el publico de todas las edades.
+Proyecto realizado para GeeksHubs._
 
-## Firsts steps 🚀
+## Primeros pasos 🚀
 
-_You can download or clone this project to see the code of the entire website._
+_Puede descargar o clonar este proyecto para ver el codigo entero de la pagina web_
 
-## Developed with 🛠️
+## Version 🖥
 
-* [HTML5] - HyperText Markup Language.
-* [CSS] - Cascading Style Sheets.
-* [Boostrap] - System of version controller.
-* [GitHub] - System of version controller.
+_Version 1.0_
 
-## Author ✒️
+## Desarrollado con 🛠️
 
-* **Martin Pinto Hoffman** - *Designer / Developer* - [pinko615](https://github.com/pinko615)
+* [HTML5]
+* [CSS]
+* [JavaScript]
+* [Boostrap]
+* [GitHub]
+
+## Autor ✒️
+
+* **Martin Pinto Hoffman** - *Diseñador Multimedial / Full Stack Developer* - [pinko615](https://github.com/pinko615)
 
 ---
-Made with ❤️ by [Pinko615](https://github.com/pinko615) 😊
+Hecho con ❤️ por [Pinko615](https://github.com/pinko615) 😊
