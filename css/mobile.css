@@ -11,7 +11,12 @@
 		overflow-x:hidden;
 		z-index:1000;
 	}
+
 	
+	
+	.mobile_menu, .mobile_menu_close, .mobile_socials{
+		display:block;
+	}
 	
 }
 
@@ -41,7 +46,12 @@
 		display:inline;
 	}
 
-	.col2 {
+
+   	.col2 {
+   	grid-template-columns: repeat(1, 1fr);
+}
+
+	.col2b {
    	grid-template-columns: repeat(1, 1fr);
 
    	}
@@ -68,9 +78,20 @@
 	.col4 {
    	grid-template-columns: repeat(2, 1fr);
 	}
+
    	.col2 {
    	grid-template-columns: repeat(1, 1fr);
 }
+
+   	.col2b {
+   	grid-template-columns: repeat(1, 1fr);
+}
+
+.mobile {
+	display:none;
+}
+
+
 form {
 	margin-top:20px;
 	}
