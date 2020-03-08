@@ -1,10 +1,11 @@
+// video
 
-	var header1_start_height = 0;
+var header5_start_height = 0;
 	var video_container = '';
 
-	$('.header1_play').click(function(){
+	$('.header5_play').click(function(){
 		video_container = $(this).attr('data-container-id');
-		header1_start_height = $('#'+video_container).outerHeight();
+		header5_start_height = $('#'+video_container).outerHeight();
 		var windowHeight=$(window).height();
 		var windowWidth=$(window).width();
 		$('#'+video_container).animate({height:windowHeight},300);
@@ -20,10 +21,41 @@
 			$('#'+video_container+' video').height(height).width(windowWidth).get(0).play();
 		}
 	});
-	$('.header1_pause').click(function(){
-		$('#'+video_container).animate({height:header1_start_height},300);
+	$('.header5_pause').click(function(){
+		$('#'+video_container).animate({height:header5_start_height},300);
 		$('#'+video_container+' .container, .nav5').fadeIn(300);
 		$('#'+video_container+' .video').fadeOut(300);
 		$('#'+video_container+' video').get(0).pause();
 	});
 
+
+// login
+
+function removeAlerts(){
+  document.getElementById("error").innerHTML = "";
+  document.getElementById("erroruser").innerHTML = "";
+  document.getElementById("errorpwd").innerHTML = "";
+  document.getElementById("errorpwdchar").innerHTML = "";
+}
+
+function validateForm() {
+  removeAlerts();
+
+  var username = document.forms["myForm"]["user"].value;
+  var pwd = document.forms["myForm"]["pass"].value;
+
+  if(!username && !pwd){
+    document.getElementById("error").innerHTML = "Por favor ingrese usuario y contraseña";
+    return false;
+  } else if(username == null || username == ""){
+		document.getElementById("erroruser").innerHTML = "Por favor ingrese usuario";
+		return false;
+  } else if(pwd == null || pwd == ""){
+		document.getElementById("errorpwd").innerHTML = "Por favor ingrese contraseña";
+		return false;
+	} else if(pwd.length < 6){
+		document.getElementById("errorpwdchar").innerHTML = "La contraseña debe tener un mínimo de 6 carácteres";
+		return false;
+	}
+
+}
