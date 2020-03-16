@@ -1,17 +1,16 @@
-# Página Web de tourismValencia
+# tourismValencia Website
 
-_Página web que promociona diferentes sitios de la Comunidad Valenciana, ofreciendo entradas y novedades para el público de todas las edades.
-Proyecto realizado para GeeksHubs._
+_tourismValencia promotes different sites in the Valencian Community, offering tickets and news for the public of all ages._
 
-## Primeros pasos 🚀
+## Firsts steps 🚀
 
-_Puede descargar o clonar este proyecto para ver el código entero de la pagina web_
+_You can download or clone this project to see the code of the entire website._
 
-## Versión 🖥
+## Version 🖥
 
-_Versión 2.0_
+_v2.0_
 
-## Desarrollado con 🛠️
+## Developed with 🛠️
 
 * [HTML5]
 * [CSS]
@@ -20,9 +19,9 @@ _Versión 2.0_
 * [API] https://openweathermap.org/
 * [GitHub] https://github.com/pinko615
 
-## Autor ✒️
+## Author ✒️
 
-* **Martín Pinto Hoffman** - *Diseñador Multimedial / Full Stack Developer* - [pinko615](https://github.com/pinko615)
+* **Martín Pinto Hoffman** - *Full Stack Designer & Developer* - [pinko615](https://github.com/pinko615)
 
 ---
-Hecho con ❤️ por [Pinko615](https://github.com/pinko615) 😊
+Made with ❤️ by [Pinko615](https://github.com/pinko615) 😊
