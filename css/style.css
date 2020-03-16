@@ -426,11 +426,6 @@ li {
     align-items: center;
 }
 
-#parent5 {
-    > div {
-        flex: 1;
-    }
-}
 
 .sec2 .card-text {
 	font-family: Muli;
@@ -789,6 +784,7 @@ button, html input[type=button], input[type=reset], input[type=submit]:hover {
 
 footer {
 	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
 }
 
 footer .row {
@@ -814,14 +810,12 @@ footer .column3 {
   line-height: 24px;
 }
 
+.footer-copyright {
+	margin-bottom:15px;
+	margin-top:15px;
+	font-family: Muli;
+}
 
-.mobile_menu{
-	display:none;
-	width:40px;
-	height:40px;
-	position:absolute;
-	top:40px;
-	left:48px;
-	background:url(../i/menu_black.png) no-repeat 50% 50%;
-	z-index:900;
+.copyright {
+	color: #0072bc;
 }
